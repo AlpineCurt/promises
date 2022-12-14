@@ -1,0 +1,32 @@
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-card {
+    width: 100px;
+    margin: 10px;
+}
+
+.card-table {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    background-color: #00512C;
+}
+
+.card-spot {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    width: 50%;
+    background-color: red;
+}
+
+img {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+}
